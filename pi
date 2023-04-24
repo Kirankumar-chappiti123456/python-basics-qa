@@ -1,0 +1,20 @@
+print("kiran")
+print('kumar')
+print("kiran kumar")
+
+how to print number:
+print(123456)
+
+and we can print storing to one variable and we can call it ex:
+a=12
+print(a)
+
+
+always remember: if we give " ",' ',it is a char or string
+
+
+string:
+city="nellore"
+des="hyd"
+city=des
+print(city)
