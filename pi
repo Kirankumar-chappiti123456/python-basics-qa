@@ -18,3 +18,20 @@ city="nellore"
 des="hyd"
 city=des
 print(city)
+
+for number:
+number=5
+print(number)
+
+mynumber=3.14
+print(mynumber)
+
+number=mynumber
+print(number)
+
+output is:
+5
+3.14
+3.14
+
+
