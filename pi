@@ -35,3 +35,15 @@ output is:
 3.14
 
 
+
+one print many variable declaration:
+
+
+city="nlr"
+locations=3
+print("city:",city,"kfc locations=",locations)
+
+
+
+
+
