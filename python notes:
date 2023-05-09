@@ -1,0 +1,104 @@
+operator in python :
+
+1.arithimetic operator:
+1.addition=a+=5  ex:a=a+5;
+2.subtraction=a-=5
+3.division=a/=5
+4.multiplication=*=5
+5.modulus=%=5
+6.exponentiation=a**=5
+7.floor division=a//=5
+
+
+assignment operators:
+
+
+1.=
+2.+=
+3.-=
+4.*=
+5./=
+%=
+**=
+//=
+gate:
+1.^=   exor
+2.|=   or
+3.&=   AND
+4.>>= a>>=5
+5<<=5 a<<=5 shift operator
+
+
+relational operator: or comparsion :
+
+
+1.== equal ex: a=4,b=5  : a==b is false
+2.>   greater than a=5,b=4  : a>b is true 
+3. <   lesser than a=4,b=5  : a<b is true
+4.>= greater than equal to a=4,b=5; a>=b is true
+5.<= lesser than equal to a=5,b=4 : a<=b is true 
+6.!= not equal to a=3, b=5 :  a!=b is true 
+
+
+
+logical operators:
+
+
+1. AND    both are statements are true it returns true           ex: x=5 >> print(x>3 and x<10)     is true  
+2. or      if one statement is true then only it is true          ex:x=5 >> print(x>3 and x<4)  is true if one statement is true than only is true 
+3. not     it reverse the result and it shows the true             ex: x=5 print(not(x>3 and x<4)  is true .
+
+
+
+
+
+identity operator : 
+1. x is y          Returns True if both variables are the same object
+
+
+ex :
+
+
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is z)
+
+# returns True because z is the same object as x
+
+print(x is y)
+
+# returns False because x is not the same object as y, even if they have the same content
+
+print(x == y)
+
+# to demonstrate the difference betweeen "is" and "==": this comparison returns True because x is equal to y
+
+
+2.is not 
+Returns True if both variables are not the same object
+
+
+ex:
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is not z)
+
+# returns False because z is the same object as x
+
+print(x is not y)
+
+# returns True because x is not the same object as y, even if they have the same content
+
+print(x != y)
+
+# to demonstrate the difference betweeen "is not" and "!=": this comparison returns False because x is equal to y
+
+
+
+
+
+
